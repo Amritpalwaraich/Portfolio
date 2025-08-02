@@ -4,7 +4,10 @@ import { StarBackground } from '@/components/StarBackground';
 import { HeroSection } from '../components/HeroSection';
 import { AboutSection } from '../components/AboutSection';
 import { SkillsSection } from '../components/SkillSection';
-import { ProjectsSection } from '../components/ProjectSection';  
+import { ProjectsSection } from '../components/ProjectSection';
+import { ContactSection } from '../components/ContactSection';
+import { Footer } from '../components/Footer';
+
 
 export const Home = () => {
     return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -22,9 +25,11 @@ export const Home = () => {
             <HeroSection />
              <AboutSection />
              <SkillsSection /> 
-              <ProjectsSection />  
+              <ProjectsSection /> 
+               <ContactSection /> 
         </main>
 
         {/* Footer */}
+        <Footer />
     </div>
 };
